@@ -24,13 +24,7 @@ An Android app built with Jetpack Compose that displays a scoreboard using a 5x7
 3. Sync with Gradle (File > Sync Project with Gradle Files).
 4. Build and run on an emulator or Android device.
 
-## Kullanım (Usage)
-- **Scoreboard**: Shows scores for two teams with LED matrix digits.
-- **Buttons**:
-  - "Home +1": Increase home team score.
-  - "Away +1": Increase away team score.
-  - "Toggle Digits": Cycle between single (0-9), double (0-99), and triple (0-999) digits.
-- **Customization**: Modify team names, digit count, or LED colors in code:
+## Usage
   ```kotlin
   ScoreBoard(
       homeScore = 123,
